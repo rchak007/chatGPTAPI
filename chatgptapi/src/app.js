@@ -10,6 +10,7 @@ async function fetchData() {
         },
         body: JSON.stringify({
             model: "text-davinci-003",
+            // prompt: "hello, how are you today?"
             prompt: "how many planets are there in solar system?",
             max_tokens: 7
         })
